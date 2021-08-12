@@ -36,7 +36,7 @@
 				rbtListToggle();
 				rbtSmoothScrollCompatibility();
 				showList();
-				// rbtLoadScript('https://toolbar.qodeinteractive.com/_toolbar/assets/js/mc-validate.js');
+				// rbtLoadScript('_toolbar/assets/js/mc-validate.js');
 			}
 		});
 	}
@@ -98,7 +98,7 @@
 					load();
 				});
 
-			}).attr('src', 'https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg');
+			}).attr('src', '_toolbar/assets/img/rbt-placeholder.jpg');
 	}
 
 	// open/close logic
