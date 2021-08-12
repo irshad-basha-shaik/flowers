@@ -16,7 +16,7 @@
 		var rbtReferrer = document.referrer;
 
 		$.ajax({
-			url: 'https://toolbar.qodeinteractive.com/templates/profile.php',
+			url: 'templates/profile.php',
 			// url: 'http://masterds.localhost/wp-content/plugins/rabbit-toolbar/templates/profile.php', /* LOCAL */
 			type: "GET",
 			data: {
@@ -52,7 +52,7 @@
 
 	// lazy-load
 	function rbtLazyLoad() {
-		
+
 			var imagePlaceholder = new Image();
 			$(imagePlaceholder).on('load', function () {
 				var load = function() {
@@ -63,8 +63,8 @@
 							vw = ($(window).width() || document.documentElement.clientWidth),
 							oh = object.outerHeight(),
 							ow = object.outerWidth();
-						
-						
+
+
 						if (
 							(rect.top != 0 || rect.right != 0 || rect.bottom != 0 || rect.left != 0) &&
 							(rect.top >= 0 || rect.top + oh >= 0) &&
@@ -72,11 +72,11 @@
 							(rect.left >= 0 || rect.left + ow >= 0) &&
 							(rect.right >= 0 && rect.right - ow - vw <= 0)
 						) {
-							
+
 							object.addClass('rbt-lazy-loading');
-							
+
 							var imageObj = new Image();
-							
+
 							$(imageObj).on('load', function () {
 								var $this = $(this);
 								object.attr('src', $this.attr('src'));
@@ -89,15 +89,15 @@
 						}
 					});
 				}
-				
+
 				$('.rbt-theme-dropdown .rbt-btn').on('click', function () {
 					setTimeout(function(){load();},500); //0.5s is animation time of toolbar showing
 				});
-				
+
 				$(".rbt-list").scroll(function() {
 					load();
 				});
-				
+
 			}).attr('src', 'https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg');
 	}
 
