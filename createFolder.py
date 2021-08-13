@@ -5,3 +5,4 @@ Path("wp-content/plugins/revslider/public/assets/js/extensions/").mkdir(parents=
 Path("en_US/").mkdir(parents=True, exist_ok=True)
 Path("log/fbevents_telemetry/").mkdir(parents=True, exist_ok=True)
 Path("web_widget/latest/").mkdir(parents=True, exist_ok=True)
+Path("_toolbar/assets/img/").mkdir(parents=True, exist_ok=True)
