@@ -95,424 +95,443 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
 							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
 						}catch(d){console.log("Failure at Presize of Slider:"+d)}
-					};</script>
+					};
+</script>
 <noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
 <body class="home page-template page-template-full-width page-template-full-width-php page page-id-189 fiorello-core-1.0 woocommerce-no-js qodef-qi--no-touch qi-addons-for-elementor-1.2.2 fiorello-ver-1.0 mkdf-grid-1300 mkdf-content-background-full-image mkdf-sticky-header-on-scroll-down-up mkdf-dropdown-animate-height mkdf-header-standard mkdf-menu-area-shadow-disable mkdf-menu-area-in-grid-shadow-disable mkdf-menu-area-border-disable mkdf-menu-area-in-grid-border-disable mkdf-logo-area-border-disable mkdf-woocommerce-columns-3 mkdf-woo-medium-space mkdf-woo-pl-info-below-image mkdf-woo-single-thumb-on-left-side mkdf-woo-single-has-pretty-photo mkdf-default-mobile-header mkdf-sticky-up-mobile-header mkdf-slide-from-header-bottom wpb-js-composer js-comp-ver-6.0.5 vc_responsive elementor-default elementor-kit-2930" itemscope itemtype="http://schema.org/WebPage">
 <div class="mkdf-wrapper">
-<div class="mkdf-wrapper-inner">
-<header class="mkdf-page-header">
-<div class="mkdf-menu-area mkdf-menu-right">
-<div class="mkdf-grid">
-<div class="mkdf-vertical-align-containers">
-<div class="mkdf-position-left"><div class="mkdf-position-left-inner">
-<div class="mkdf-logo-wrapper">
-<a itemprop="url" href="" style="height: 25px;">
-<img itemprop="image" class="mkdf-normal-logo" src="wp-content/uploads/2018/05/h2-logo-1.png" width="424" height="50" alt="logo" />
-<img itemprop="image" class="mkdf-dark-logo" src="wp-content/themes/fiorello/assets/img/logo.png" alt="dark logo" /> <img itemprop="image" class="mkdf-light-logo" src="wp-content/themes/fiorello/assets/img/logo_white.png" alt="light logo" /> </a>
-</div>
-</div>
-</div>
-<div class="mkdf-position-right"><div class="mkdf-position-right-inner">
-	<nav class="mkdf-main-menu mkdf-drop-down mkdf-default-nav">
-		<ul id="menu-main-menu" class="clearfix">
-			<li id="nav-menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub narrow"><a href="#" class=" current "><span class="item_outer"><span class="item_text"  data-langkey="home"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-				<div class="second">
-					<div class="inner">
-						<ul>
-							<li><a class="nav-link scrollto"><input id="languageTxt" type="checkbox"  onclick="updateValue(this)"  data-on="Arabic" data-off="English" data-onstyle="success" data-offstyle="danger" checked data-toggle="toggle"></a></li>
-							<li id="nav-menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-189 current_page_item "><a href="" class=""><span class="item_outer"><span class="item_text">Main Home</span></span></a></li>
-							<li id="nav-menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="grid-home.html" class=""><span class="item_outer"><span class="item_text">Grid Home</span></span></a></li>
-							<li id="nav-menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="flower-shop.html" class=""><span class="item_outer"><span class="item_text">Flower Shop</span></span></a></li>
-							<li id="nav-menu-item-1662" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="animated-slider.html" class=""><span class="item_outer"><span class="item_text">Animated Slider</span></span></a></li>
-							<li id="nav-menu-item-703" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="metro-showcase.html" class=""><span class="item_outer"><span class="item_text">Metro Showcase</span></span></a></li>
-							<li id="nav-menu-item-855" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="carousel-showcase.html" class=""><span class="item_outer"><span class="item_text">Carousel Showcase</span></span></a></li>
-							<li id="nav-menu-item-2886" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="landing/" class=""><span class="item_outer"><span class="item_text">Landing</span></span></a></li>
-						</ul>
+	<div class="mkdf-wrapper-inner">
+		<header class="mkdf-page-header">
+			<div class="mkdf-menu-area mkdf-menu-right">
+				<div class="mkdf-grid">
+					<div class="mkdf-vertical-align-containers">
+						<div class="mkdf-position-left">
+							<div class="mkdf-position-left-inner">
+								<div class="mkdf-logo-wrapper">
+									<a itemprop="url" href="" style="height: 25px;">
+										<img itemprop="image" class="mkdf-normal-logo" src="wp-content/uploads/2018/05/h2-logo-1.png" width="424" height="50" alt="logo" />
+										<img itemprop="image" class="mkdf-dark-logo" src="wp-content/themes/fiorello/assets/img/logo.png" alt="dark logo" /> <img itemprop="image" class="mkdf-light-logo" src="wp-content/themes/fiorello/assets/img/logo_white.png" alt="light logo" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="mkdf-position-right">
+							<div class="mkdf-position-right-inner">
+								<nav class="mkdf-main-menu mkdf-drop-down mkdf-default-nav">
+									<ul id="menu-main-menu" class="clearfix">
+										<li id="nav-menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub narrow"><a href="#" class=" current "><span class="item_outer"><span class="item_text"  data-langkey="home"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+											<div class="second">
+												<div class="inner">
+													<ul>
+														<li><a class="nav-link scrollto"><input id="languageTxt" type="checkbox"  onclick="updateValue(this)"  data-on="Arabic" data-off="English" data-onstyle="success" data-offstyle="danger" checked data-toggle="toggle"></a></li>
+														<li id="nav-menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-189 current_page_item "><a href="" class=""><span class="item_outer"><span class="item_text">Main Home</span></span></a></li>
+														<li id="nav-menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="grid-home.html" class=""><span class="item_outer"><span class="item_text">Grid Home</span></span></a></li>
+														<li id="nav-menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="flower-shop.html" class=""><span class="item_outer"><span class="item_text">Flower Shop</span></span></a></li>
+														<li id="nav-menu-item-1662" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="animated-slider.html" class=""><span class="item_outer"><span class="item_text">Animated Slider</span></span></a></li>
+														<li id="nav-menu-item-703" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="metro-showcase.html" class=""><span class="item_outer"><span class="item_text">Metro Showcase</span></span></a></li>
+														<li id="nav-menu-item-855" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="carousel-showcase.html" class=""><span class="item_outer"><span class="item_text">Carousel Showcase</span></span></a></li>
+														<li id="nav-menu-item-2886" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="landing/" class=""><span class="item_outer"><span class="item_text">Landing</span></span></a></li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li id="nav-menu-item-704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+											<div class="second">
+												<div class="inner">
+													<ul>
+														<li id="nav-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="about-us.html" class=""><span class="item_outer"><span class="item_text">About Us</span></span></a></li>
+														<li id="nav-menu-item-802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="faq_page.html" class=""><span class="item_outer"><span class="item_text">FAQ Page</span></span></a></li>
+														<li id="nav-menu-item-702" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="contact-us.html" class=""><span class="item_outer"><span class="item_text">Contact Us</span></span></a></li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li id="nav-menu-item-243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide mkdf-wide-menu-in-grid"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+											<div class="second">
+												<div class="inner">
+													<ul>
+														<li id="nav-menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Product Types</span></span></a>
+															<ul>
+																<li id="nav-menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/orange-amaryllis/" class=""><span class="item_outer"><span class="item_text">Standard Product</span></span></a></li>
+																<li id="nav-menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Kobbari-Bondam/" class=""><span class="item_outer"><span class="item_text">Grouped Product</span></span></a></li>
+																<li id="nav-menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/pink-flower-tree/" class=""><span class="item_outer"><span class="item_text">Variable Product</span></span></a></li>
+																<li id="nav-menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/colorful-tulips/" class=""><span class="item_outer"><span class="item_text">Virtual Product</span></span></a></li>
+																<li id="nav-menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Pelli-Butta/" class=""><span class="item_outer"><span class="item_text">External Product</span></span></a></li>
+																<li id="nav-menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/summer-savory/" class=""><span class="item_outer"><span class="item_text">Downloadable Product</span></span></a></li>
+																<li id="nav-menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Addu-Thera/" class=""><span class="item_outer"><span class="item_text">On Sale Product</span></span></a></li>
+																<li id="nav-menu-item-559" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Venis/" class=""><span class="item_outer"><span class="item_text">Out of Stock Product</span></span></a></li>
+																<li id="nav-menu-item-557" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/schefflera/" class=""><span class="item_outer"><span class="item_text">New Product</span></span></a></li>
+															</ul>
+														</li>
+														<li id="nav-menu-item-244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Pages</span></span></a>
+															<ul>
+																<li id="nav-menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="my-account/" class=""><span class="item_outer"><span class="item_text">My Account</span></span></a></li>
+																<li id="nav-menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="cart/" class=""><span class="item_outer"><span class="item_text">Cart</span></span></a></li>
+																<li id="nav-menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="checkout/" class=""><span class="item_outer"><span class="item_text">Checkout</span></span></a></li>
+																<li id="nav-menu-item-2088" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="my-account/orders/" class=""><span class="item_outer"><span class="item_text">Orders</span></span></a></li>
+																<li id="nav-menu-item-2087" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="my-account/downloads/" class=""><span class="item_outer"><span class="item_text">Downloads</span></span></a></li>
+															</ul>
+														</li>
+														<li id="nav-menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Types</span></span></a>
+															<ul>
+																<li id="nav-menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span></span></a></li>
+																<li id="nav-menu-item-2581" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/without-sidebar/" class=""><span class="item_outer"><span class="item_text">Without Sidebar</span></span></a></li>
+																<li id="nav-menu-item-1862" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="with-category-filter/" class=""><span class="item_outer"><span class="item_text">With Category Filter</span></span></a></li>
+																<li id="nav-menu-item-2579" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="with-ordering-filter/" class=""><span class="item_outer"><span class="item_text">With Ordering Filter</span></span></a></li>
+																<li id="nav-menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="shop-carousel/" class=""><span class="item_outer"><span class="item_text">Shop Carousel</span></span></a></li>
+																<li id="nav-menu-item-2578" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-categories/" class=""><span class="item_outer"><span class="item_text">Product Categories</span></span></a></li>
+																<li id="nav-menu-item-1864" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="product-category/various/" class=""><span class="item_outer"><span class="item_text">Single Category</span></span></a></li>
+															</ul>
+														</li>
+														<li id="nav-menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Layouts</span></span></a>
+															<ul>
+																<li id="nav-menu-item-1813" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/two-columns-grid/" class=""><span class="item_outer"><span class="item_text">Two Columns Grid</span></span></a></li>
+																<li id="nav-menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="three-columns-grid/" class=""><span class="item_outer"><span class="item_text">Three Columns Grid</span></span></a></li>
+																<li id="nav-menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/four-columns-grid/" class=""><span class="item_outer"><span class="item_text">Four Columns Grid</span></span></a></li>
+																<li id="nav-menu-item-1812" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">Four Columns Wide</span></span></a></li>
+																<li id="nav-menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">Five Columns Wide</span></span></a></li>
+																<li id="nav-menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/six-columns-wide/" class=""><span class="item_outer"><span class="item_text">Six Columns Wide</span></span></a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li id="nav-menu-item-937" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+											<div class="second">
+												<div class="inner">
+													<ul>
+														<li id="nav-menu-item-938" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-standard/" class=""><span class="item_outer"><span class="item_text">Standard</span></span></a></li>
+														<li id="nav-menu-item-997" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/" class=""><span class="item_outer"><span class="item_text">Gallery</span></span></a></li>
+														<li id="nav-menu-item-2095" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-masonry/" class=""><span class="item_outer"><span class="item_text">Masonry</span></span></a></li>
+														<li id="nav-menu-item-939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Layouts</span></span></a>
+															<ul>
+																<li id="nav-menu-item-1038" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/two-columns/" class=""><span class="item_outer"><span class="item_text">Two Columns</span></span></a></li>
+																<li id="nav-menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/three-columns/" class=""><span class="item_outer"><span class="item_text">Three Columns</span></span></a></li>
+																<li id="nav-menu-item-1036" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/four-columns/" class=""><span class="item_outer"><span class="item_text">Four Columns</span></span></a></li>
+																<li id="nav-menu-item-1035" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">Four Columns Wide</span></span></a></li>
+																<li id="nav-menu-item-1034" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">Five Columns Wide</span></span></a></li>
+															</ul>
+														</li>
+														<li id="nav-menu-item-940" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Single</span></span></a>
+															<ul>
+																<li id="nav-menu-item-990" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/flower-power/" class=""><span class="item_outer"><span class="item_text">Small Images</span></span></a></li>
+																<li id="nav-menu-item-989" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/floristry-shops/" class=""><span class="item_outer"><span class="item_text">Small Slider</span></span></a></li>
+																<li id="nav-menu-item-988" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/english-garden/" class=""><span class="item_outer"><span class="item_text">Big Images</span></span></a></li>
+																<li id="nav-menu-item-987" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/dutch-style/" class=""><span class="item_outer"><span class="item_text">Big Slider</span></span></a></li>
+																<li id="nav-menu-item-986" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/ikebana/" class=""><span class="item_outer"><span class="item_text">Gallery</span></span></a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li id="nav-menu-item-567" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+											<div class="second">
+												<div class="inner">
+													<ul>
+														<li id="nav-menu-item-863" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="blog-masonry/" class=""><span class="item_outer"><span class="item_text">Masonry</span></span></a></li>
+														<li id="nav-menu-item-629" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="blog-standard-right-sidebar/" class=""><span class="item_outer"><span class="item_text">Standard</span></span></a></li>
+														<li id="nav-menu-item-568" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Post Types</span></span></a>
+															<ul>
+																<li id="nav-menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="creating-messages-of-magnificence/" class=""><span class="item_outer"><span class="item_text">Standard</span></span></a></li>
+																<li id="nav-menu-item-1691" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="beautiful/" class=""><span class="item_outer"><span class="item_text">Gallery</span></span></a></li>
+																<li id="nav-menu-item-625" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="we-dont-just-create-bouquets-we-create-emotions/" class=""><span class="item_outer"><span class="item_text">Link</span></span></a></li>
+																<li id="nav-menu-item-624" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="your-first-choice/" class=""><span class="item_outer"><span class="item_text">Quote</span></span></a></li>
+																<li id="nav-menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="the-sound-of-flowers/" class=""><span class="item_outer"><span class="item_text">Audio</span></span></a></li>
+																<li id="nav-menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="making-bouquets/" class=""><span class="item_outer"><span class="item_text">Video</span></span></a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li id="nav-menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="elements/" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Elements</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+											<div class="second">
+												<div class="inner">
+													<ul>
+														<li id="nav-menu-item-144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Classic</span></span></a>
+															<ul>
+																<li id="nav-menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/accordions/" class=""><span class="item_outer"><span class="item_text">Accordions</span></span></a></li>
+																<li id="nav-menu-item-1294" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/tabs/" class=""><span class="item_outer"><span class="item_text">Tabs</span></span></a></li>
+																<li id="nav-menu-item-1293" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/buttons/" class=""><span class="item_outer"><span class="item_text">Buttons</span></span></a></li>
+																<li id="nav-menu-item-1297" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/video-button/" class=""><span class="item_outer"><span class="item_text">Video Button</span></span></a></li>
+																<li id="nav-menu-item-1273" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/contact-form/" class=""><span class="item_outer"><span class="item_text">Contact Form</span></span></a></li>
+															</ul>
+														</li>
+														<li id="nav-menu-item-146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Infographic</span></span></a>
+															<ul>
+																<li id="nav-menu-item-1177" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/blog-list/" class=""><span class="item_outer"><span class="item_text">Blog List</span></span></a></li>
+																<li id="nav-menu-item-1133" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/counters/" class=""><span class="item_outer"><span class="item_text">Counters</span></span></a></li>
+																<li id="nav-menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/countdown/" class=""><span class="item_outer"><span class="item_text">Countdown</span></span></a></li>
+																<li id="nav-menu-item-1298" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/google-maps/" class=""><span class="item_outer"><span class="item_text">Google Maps</span></span></a></li>
+																<li id="nav-menu-item-1120" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/progress-bar/" class=""><span class="item_outer"><span class="item_text">Progress Bar</span></span></a></li>
+																<li id="nav-menu-item-1157" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/pie-charts/" class=""><span class="item_outer"><span class="item_text">Pie Charts</span></span></a></li>
+															</ul>
+														</li>
+														<li id="nav-menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Interactive</span></span></a>
+															<ul>
+																<li id="nav-menu-item-1222" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/image-gallery/" class=""><span class="item_outer"><span class="item_text">Image Gallery</span></span></a></li>
+																<li id="nav-menu-item-1184" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span></span></a></li>
+																<li id="nav-menu-item-1180" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/team/" class=""><span class="item_outer"><span class="item_text">Team</span></span></a></li>
+																<li id="nav-menu-item-1299" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/banner/" class=""><span class="item_outer"><span class="item_text">Banner</span></span></a></li>
+																<li id="nav-menu-item-1300" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/shop-list/" class=""><span class="item_outer"><span class="item_text">Shop List</span></span></a></li>
+																<li id="nav-menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/portfolio-list/" class=""><span class="item_outer"><span class="item_text">Portfolio List</span></span></a></li>
+															</ul>
+														</li>
+														<li id="nav-menu-item-147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Typography</span></span></a>
+															<ul>
+																<li id="nav-menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/headings/" class=""><span class="item_outer"><span class="item_text">Headings</span></span></a></li>
+																<li id="nav-menu-item-974" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/columns/" class=""><span class="item_outer"><span class="item_text">Columns</span></span></a></li>
+																<li id="nav-menu-item-994" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/section-title/" class=""><span class="item_outer"><span class="item_text">Section Title</span></span></a></li>
+																<li id="nav-menu-item-1082" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/blockquote/" class=""><span class="item_outer"><span class="item_text">Blockquote</span></span></a></li>
+																<li id="nav-menu-item-1099" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/dropcaps/" class=""><span class="item_outer"><span class="item_text">Dropcaps</span></span></a></li>
+																<li id="nav-menu-item-2067" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/highlights/" class=""><span class="item_outer"><span class="item_text">Highlights</span></span></a></li>
+																<li id="nav-menu-item-1102" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/separators/" class=""><span class="item_outer"><span class="item_text">Separators</span></span></a></li>
+																<li id="nav-menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/custom-font/" class=""><span class="item_outer"><span class="item_text">Custom Font</span></span></a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li id="nav-menu-item-937" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Language</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+											<div class="second">
+												<div class="inner">
+													<ul>
+														<li id="nav-menu-item-938" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="#"  onclick="switchLangView('en')" class=""><span class="item_outer"><span class="item_text">English</span></span></a></li>
+														<li id="nav-menu-item-997" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="#"  onclick="switchLangView('hindi')" class=""><span class="item_outer"><span class="item_text" >Hindi</span></span></a></li>
+														<li id="nav-menu-item-2095" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="#"  onclick="switchLangView('tel')" class=""><span class="item_outer"><span class="item_text">Telugu</span></span></a></li>
+													</ul>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</nav>
+									<a class="mkdf-search-opener mkdf-icon-has-hover mkdf-search-opener-icon-pack" href="javascript:void(0)">
+										<span class="mkdf-search-opener-wrapper">
+											<span aria-hidden="true" class="mkdf-icon-font-elegant icon_search "></span>
+										</span>
+									</a>
+								</nav>
+							</div>
+						</div>
 					</div>
 				</div>
-			</li>
-			<li id="nav-menu-item-704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-				<div class="second">
-					<div class="inner">
-						<ul>
-							<li id="nav-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="about-us.html" class=""><span class="item_outer"><span class="item_text">About Us</span></span></a></li>
-							<li id="nav-menu-item-802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="faq_page.html" class=""><span class="item_outer"><span class="item_text">FAQ Page</span></span></a></li>
-							<li id="nav-menu-item-702" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="contact-us.html" class=""><span class="item_outer"><span class="item_text">Contact Us</span></span></a></li>
-						</ul>
+			</div>
+			<div class="mkdf-sticky-header">
+				<div class="mkdf-sticky-holder mkdf-menu-right">
+					<div class="mkdf-grid">
+						<div class="mkdf-vertical-align-containers">
+							<div class="mkdf-position-left">
+								<div class="mkdf-position-left-inner">
+									<div class="mkdf-logo-wrapper">
+										<a itemprop="url" href="" style="height: 25px;">
+											<img itemprop="image" class="mkdf-normal-logo" src="wp-content/uploads/2018/05/h2-logo-1.png" width="424" height="50" alt="logo" />
+											<img itemprop="image" class="mkdf-dark-logo" src="wp-content/themes/fiorello/assets/img/logo.png" alt="dark logo" /> <img itemprop="image" class="mkdf-light-logo" src="wp-content/themes/fiorello/assets/img/logo_white.png" alt="light logo" />
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="mkdf-position-right">
+								<div class="mkdf-position-right-inner">
+
+									<nav class="mkdf-main-menu mkdf-drop-down mkdf-sticky-nav">
+										<ul id="menu-main-menu-1" class="clearfix">
+											<li id="sticky-nav-menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub narrow"><a href="#" class=" current "><span class="item_outer"><span class="item_text">Home</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+												<div class="second">
+													<div class="inner">
+														<ul>
+															<li id="sticky-nav-menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-189 current_page_item "><a href="" class=""><span class="item_outer"><span class="item_text">Main Home</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="grid-home" class=""><span class="item_outer"><span class="item_text">Grid Home</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="flower-shop/" class=""><span class="item_outer"><span class="item_text">Flower Shop</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-1662" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="animated-slider/" class=""><span class="item_outer"><span class="item_text">Animated Slider</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-703" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="metro-showcase/" class=""><span class="item_outer"><span class="item_text">Metro Showcase</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-855" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="carousel-showcase/" class=""><span class="item_outer"><span class="item_text">Carousel Showcase</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-2886" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="landing/" class=""><span class="item_outer"><span class="item_text">Landing</span><span class="plus"></span></span></a></li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li id="sticky-nav-menu-item-704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+												<div class="second">
+													<div class="inner">
+														<ul>
+															<li id="sticky-nav-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="about-us/" class=""><span class="item_outer"><span class="item_text">About Us</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="faq-page/" class=""><span class="item_outer"><span class="item_text">FAQ Page</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-702" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="contact-us/" class=""><span class="item_outer"><span class="item_text">Contact Us</span><span class="plus"></span></span></a></li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li id="sticky-nav-menu-item-243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide mkdf-wide-menu-in-grid"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+												<div class="second">
+													<div class="inner">
+														<ul>
+															<li id="sticky-nav-menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Product Types</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/orange-amaryllis/" class=""><span class="item_outer"><span class="item_text">Standard Product</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Kobbari-Bondam/" class=""><span class="item_outer"><span class="item_text">Grouped Product</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/pink-flower-tree/" class=""><span class="item_outer"><span class="item_text">Variable Product</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/colorful-tulips/" class=""><span class="item_outer"><span class="item_text">Virtual Product</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Pelli-Butta/" class=""><span class="item_outer"><span class="item_text">External Product</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/summer-savory/" class=""><span class="item_outer"><span class="item_text">Downloadable Product</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Addu-Thera/" class=""><span class="item_outer"><span class="item_text">On Sale Product</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-559" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Venis/" class=""><span class="item_outer"><span class="item_text">Out of Stock Product</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-557" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/schefflera/" class=""><span class="item_outer"><span class="item_text">New Product</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+															<li id="sticky-nav-menu-item-244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Pages</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="my-account/" class=""><span class="item_outer"><span class="item_text">My Account</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="cart/" class=""><span class="item_outer"><span class="item_text">Cart</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="checkout/" class=""><span class="item_outer"><span class="item_text">Checkout</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-2088" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="my-account/orders/" class=""><span class="item_outer"><span class="item_text">Orders</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-2087" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="my-account/downloads/" class=""><span class="item_outer"><span class="item_text">Downloads</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+															<li id="sticky-nav-menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Types</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-2581" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/without-sidebar/" class=""><span class="item_outer"><span class="item_text">Without Sidebar</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1862" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="with-category-filter/" class=""><span class="item_outer"><span class="item_text">With Category Filter</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-2579" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="with-ordering-filter/" class=""><span class="item_outer"><span class="item_text">With Ordering Filter</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="shop-carousel/" class=""><span class="item_outer"><span class="item_text">Shop Carousel</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-2578" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-categories/" class=""><span class="item_outer"><span class="item_text">Product Categories</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1864" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="product-category/various/" class=""><span class="item_outer"><span class="item_text">Single Category</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+															<li id="sticky-nav-menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Layouts</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-1813" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/two-columns-grid/" class=""><span class="item_outer"><span class="item_text">Two Columns Grid</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="three-columns-grid/" class=""><span class="item_outer"><span class="item_text">Three Columns Grid</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/four-columns-grid/" class=""><span class="item_outer"><span class="item_text">Four Columns Grid</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1812" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">Four Columns Wide</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">Five Columns Wide</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/six-columns-wide/" class=""><span class="item_outer"><span class="item_text">Six Columns Wide</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li id="sticky-nav-menu-item-937" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+												<div class="second">
+													<div class="inner">
+														<ul>
+															<li id="sticky-nav-menu-item-938" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-standard/" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-997" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-2095" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-masonry/" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Layouts</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-1038" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/two-columns/" class=""><span class="item_outer"><span class="item_text">Two Columns</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/three-columns/" class=""><span class="item_outer"><span class="item_text">Three Columns</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1036" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/four-columns/" class=""><span class="item_outer"><span class="item_text">Four Columns</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1035" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">Four Columns Wide</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1034" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">Five Columns Wide</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+															<li id="sticky-nav-menu-item-940" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Single</span><span class="plus"></span></span></a>
+														<ul>
+															<li id="sticky-nav-menu-item-990" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/flower-power/" class=""><span class="item_outer"><span class="item_text">Small Images</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-989" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/floristry-shops/" class=""><span class="item_outer"><span class="item_text">Small Slider</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-988" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/english-garden/" class=""><span class="item_outer"><span class="item_text">Big Images</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-987" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/dutch-style/" class=""><span class="item_outer"><span class="item_text">Big Slider</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-986" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/ikebana/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
+														</ul>
+													</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li id="sticky-nav-menu-item-567" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+												<div class="second">
+													<div class="inner">
+														<ul>
+															<li id="sticky-nav-menu-item-863" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="blog-masonry/" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-629" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="blog-standard-right-sidebar/" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-568" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Post Types</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="creating-messages-of-magnificence/" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1691" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="beautiful/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-625" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="we-dont-just-create-bouquets-we-create-emotions/" class=""><span class="item_outer"><span class="item_text">Link</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-624" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="your-first-choice/" class=""><span class="item_outer"><span class="item_text">Quote</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="the-sound-of-flowers/" class=""><span class="item_outer"><span class="item_text">Audio</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="making-bouquets/" class=""><span class="item_outer"><span class="item_text">Video</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li id="sticky-nav-menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="elements/" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Elements</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+												<div class="second">
+													<div class="inner">
+														<ul>
+															<li id="sticky-nav-menu-item-144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Classic</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/accordions/" class=""><span class="item_outer"><span class="item_text">Accordions</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1294" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/tabs/" class=""><span class="item_outer"><span class="item_text">Tabs</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1293" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/buttons/" class=""><span class="item_outer"><span class="item_text">Buttons</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1297" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/video-button/" class=""><span class="item_outer"><span class="item_text">Video Button</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1273" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/contact-form/" class=""><span class="item_outer"><span class="item_text">Contact Form</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+															<li id="sticky-nav-menu-item-146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Infographic</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-1177" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/blog-list/" class=""><span class="item_outer"><span class="item_text">Blog List</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1133" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/counters/" class=""><span class="item_outer"><span class="item_text">Counters</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/countdown/" class=""><span class="item_outer"><span class="item_text">Countdown</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1298" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/google-maps/" class=""><span class="item_outer"><span class="item_text">Google Maps</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1120" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/progress-bar/" class=""><span class="item_outer"><span class="item_text">Progress Bar</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1157" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/pie-charts/" class=""><span class="item_outer"><span class="item_text">Pie Charts</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+															<li id="sticky-nav-menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Interactive</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-1222" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/image-gallery/" class=""><span class="item_outer"><span class="item_text">Image Gallery</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1184" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1180" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/team/" class=""><span class="item_outer"><span class="item_text">Team</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1299" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/banner/" class=""><span class="item_outer"><span class="item_text">Banner</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1300" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/shop-list/" class=""><span class="item_outer"><span class="item_text">Shop List</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/portfolio-list/" class=""><span class="item_outer"><span class="item_text">Portfolio List</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+															<li id="sticky-nav-menu-item-147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Typography</span><span class="plus"></span></span></a>
+																<ul>
+																	<li id="sticky-nav-menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/headings/" class=""><span class="item_outer"><span class="item_text">Headings</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-974" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/columns/" class=""><span class="item_outer"><span class="item_text">Columns</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-994" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/section-title/" class=""><span class="item_outer"><span class="item_text">Section Title</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1082" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/blockquote/" class=""><span class="item_outer"><span class="item_text">Blockquote</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1099" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/dropcaps/" class=""><span class="item_outer"><span class="item_text">Dropcaps</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-2067" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/highlights/" class=""><span class="item_outer"><span class="item_text">Highlights</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1102" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/separators/" class=""><span class="item_outer"><span class="item_text">Separators</span><span class="plus"></span></span></a></li>
+																	<li id="sticky-nav-menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/custom-font/" class=""><span class="item_outer"><span class="item_text">Custom Font</span><span class="plus"></span></span></a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</li>
-			<li id="nav-menu-item-243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide mkdf-wide-menu-in-grid"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-				<div class="second">
-					<div class="inner">
-						<ul>
-							<li id="nav-menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Product Types</span></span></a>
-								<ul>
-									<li id="nav-menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/orange-amaryllis/" class=""><span class="item_outer"><span class="item_text">Standard Product</span></span></a></li>
-									<li id="nav-menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Kobbari-Bondam/" class=""><span class="item_outer"><span class="item_text">Grouped Product</span></span></a></li>
-									<li id="nav-menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/pink-flower-tree/" class=""><span class="item_outer"><span class="item_text">Variable Product</span></span></a></li>
-									<li id="nav-menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/colorful-tulips/" class=""><span class="item_outer"><span class="item_text">Virtual Product</span></span></a></li>
-									<li id="nav-menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Pelli-Butta/" class=""><span class="item_outer"><span class="item_text">External Product</span></span></a></li>
-									<li id="nav-menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/summer-savory/" class=""><span class="item_outer"><span class="item_text">Downloadable Product</span></span></a></li>
-									<li id="nav-menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Addu-Thera/" class=""><span class="item_outer"><span class="item_text">On Sale Product</span></span></a></li>
-									<li id="nav-menu-item-559" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Venis/" class=""><span class="item_outer"><span class="item_text">Out of Stock Product</span></span></a></li>
-									<li id="nav-menu-item-557" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/schefflera/" class=""><span class="item_outer"><span class="item_text">New Product</span></span></a></li>
-								</ul>
-							</li>
-							<li id="nav-menu-item-244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Pages</span></span></a>
-								<ul>
-									<li id="nav-menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="my-account/" class=""><span class="item_outer"><span class="item_text">My Account</span></span></a></li>
-									<li id="nav-menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="cart/" class=""><span class="item_outer"><span class="item_text">Cart</span></span></a></li>
-									<li id="nav-menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="checkout/" class=""><span class="item_outer"><span class="item_text">Checkout</span></span></a></li>
-									<li id="nav-menu-item-2088" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="my-account/orders/" class=""><span class="item_outer"><span class="item_text">Orders</span></span></a></li>
-									<li id="nav-menu-item-2087" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="my-account/downloads/" class=""><span class="item_outer"><span class="item_text">Downloads</span></span></a></li>
-								</ul>
-							</li>
-							<li id="nav-menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Types</span></span></a>
-								<ul>
-									<li id="nav-menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span></span></a></li>
-									<li id="nav-menu-item-2581" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/without-sidebar/" class=""><span class="item_outer"><span class="item_text">Without Sidebar</span></span></a></li>
-									<li id="nav-menu-item-1862" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="with-category-filter/" class=""><span class="item_outer"><span class="item_text">With Category Filter</span></span></a></li>
-									<li id="nav-menu-item-2579" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="with-ordering-filter/" class=""><span class="item_outer"><span class="item_text">With Ordering Filter</span></span></a></li>
-									<li id="nav-menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="shop-carousel/" class=""><span class="item_outer"><span class="item_text">Shop Carousel</span></span></a></li>
-									<li id="nav-menu-item-2578" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-categories/" class=""><span class="item_outer"><span class="item_text">Product Categories</span></span></a></li>
-									<li id="nav-menu-item-1864" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="product-category/various/" class=""><span class="item_outer"><span class="item_text">Single Category</span></span></a></li>
-								</ul>
-							</li>
-							<li id="nav-menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Layouts</span></span></a>
-								<ul>
-									<li id="nav-menu-item-1813" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/two-columns-grid/" class=""><span class="item_outer"><span class="item_text">Two Columns Grid</span></span></a></li>
-									<li id="nav-menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="three-columns-grid/" class=""><span class="item_outer"><span class="item_text">Three Columns Grid</span></span></a></li>
-									<li id="nav-menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/four-columns-grid/" class=""><span class="item_outer"><span class="item_text">Four Columns Grid</span></span></a></li>
-									<li id="nav-menu-item-1812" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">Four Columns Wide</span></span></a></li>
-									<li id="nav-menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">Five Columns Wide</span></span></a></li>
-									<li id="nav-menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/six-columns-wide/" class=""><span class="item_outer"><span class="item_text">Six Columns Wide</span></span></a></li>
-								</ul>
-							</li>
-						</ul>
+			</div>
+			<div class="mkdf-slide-from-header-bottom-holder">
+				<form action="" method="get">
+					<div class="mkdf-form-holder">
+						<input type="text" placeholder="Search" name="s" class="mkdf-search-field" autocomplete="off" />
+						<button type="submit" class="mkdf-search-submit mkdf-search-submit-icon-pack">
+							<span aria-hidden="true" class="mkdf-icon-font-elegant icon_search "></span>
+						</button>
 					</div>
-				</div>
-			</li>
-			<li id="nav-menu-item-937" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-				<div class="second">
-					<div class="inner">
-						<ul>
-							<li id="nav-menu-item-938" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-standard/" class=""><span class="item_outer"><span class="item_text">Standard</span></span></a></li>
-							<li id="nav-menu-item-997" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/" class=""><span class="item_outer"><span class="item_text">Gallery</span></span></a></li>
-							<li id="nav-menu-item-2095" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-masonry/" class=""><span class="item_outer"><span class="item_text">Masonry</span></span></a></li>
-							<li id="nav-menu-item-939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Layouts</span></span></a>
-								<ul>
-									<li id="nav-menu-item-1038" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/two-columns/" class=""><span class="item_outer"><span class="item_text">Two Columns</span></span></a></li>
-									<li id="nav-menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/three-columns/" class=""><span class="item_outer"><span class="item_text">Three Columns</span></span></a></li>
-									<li id="nav-menu-item-1036" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/four-columns/" class=""><span class="item_outer"><span class="item_text">Four Columns</span></span></a></li>
-									<li id="nav-menu-item-1035" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">Four Columns Wide</span></span></a></li>
-									<li id="nav-menu-item-1034" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">Five Columns Wide</span></span></a></li>
-								</ul>
-							</li>
-							<li id="nav-menu-item-940" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Single</span></span></a>
-								<ul>
-									<li id="nav-menu-item-990" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/flower-power/" class=""><span class="item_outer"><span class="item_text">Small Images</span></span></a></li>
-									<li id="nav-menu-item-989" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/floristry-shops/" class=""><span class="item_outer"><span class="item_text">Small Slider</span></span></a></li>
-									<li id="nav-menu-item-988" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/english-garden/" class=""><span class="item_outer"><span class="item_text">Big Images</span></span></a></li>
-									<li id="nav-menu-item-987" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/dutch-style/" class=""><span class="item_outer"><span class="item_text">Big Slider</span></span></a></li>
-									<li id="nav-menu-item-986" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/ikebana/" class=""><span class="item_outer"><span class="item_text">Gallery</span></span></a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</li>
-			<li id="nav-menu-item-567" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-				<div class="second">
-					<div class="inner">
-						<ul>
-							<li id="nav-menu-item-863" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="blog-masonry/" class=""><span class="item_outer"><span class="item_text">Masonry</span></span></a></li>
-							<li id="nav-menu-item-629" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="blog-standard-right-sidebar/" class=""><span class="item_outer"><span class="item_text">Standard</span></span></a></li>
-							<li id="nav-menu-item-568" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Post Types</span></span></a>
-								<ul>
-									<li id="nav-menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="creating-messages-of-magnificence/" class=""><span class="item_outer"><span class="item_text">Standard</span></span></a></li>
-									<li id="nav-menu-item-1691" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="beautiful/" class=""><span class="item_outer"><span class="item_text">Gallery</span></span></a></li>
-									<li id="nav-menu-item-625" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="we-dont-just-create-bouquets-we-create-emotions/" class=""><span class="item_outer"><span class="item_text">Link</span></span></a></li>
-									<li id="nav-menu-item-624" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="your-first-choice/" class=""><span class="item_outer"><span class="item_text">Quote</span></span></a></li>
-									<li id="nav-menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="the-sound-of-flowers/" class=""><span class="item_outer"><span class="item_text">Audio</span></span></a></li>
-									<li id="nav-menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="making-bouquets/" class=""><span class="item_outer"><span class="item_text">Video</span></span></a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</li>
-			<li id="nav-menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="elements/" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Elements</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-				<div class="second">
-					<div class="inner">
-						<ul>
-							<li id="nav-menu-item-144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Classic</span></span></a>
-								<ul>
-									<li id="nav-menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/accordions/" class=""><span class="item_outer"><span class="item_text">Accordions</span></span></a></li>
-									<li id="nav-menu-item-1294" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/tabs/" class=""><span class="item_outer"><span class="item_text">Tabs</span></span></a></li>
-									<li id="nav-menu-item-1293" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/buttons/" class=""><span class="item_outer"><span class="item_text">Buttons</span></span></a></li>
-									<li id="nav-menu-item-1297" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/video-button/" class=""><span class="item_outer"><span class="item_text">Video Button</span></span></a></li>
-									<li id="nav-menu-item-1273" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/contact-form/" class=""><span class="item_outer"><span class="item_text">Contact Form</span></span></a></li>
-								</ul>
-							</li>
-							<li id="nav-menu-item-146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Infographic</span></span></a>
-								<ul>
-									<li id="nav-menu-item-1177" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/blog-list/" class=""><span class="item_outer"><span class="item_text">Blog List</span></span></a></li>
-									<li id="nav-menu-item-1133" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/counters/" class=""><span class="item_outer"><span class="item_text">Counters</span></span></a></li>
-									<li id="nav-menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/countdown/" class=""><span class="item_outer"><span class="item_text">Countdown</span></span></a></li>
-									<li id="nav-menu-item-1298" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/google-maps/" class=""><span class="item_outer"><span class="item_text">Google Maps</span></span></a></li>
-									<li id="nav-menu-item-1120" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/progress-bar/" class=""><span class="item_outer"><span class="item_text">Progress Bar</span></span></a></li>
-									<li id="nav-menu-item-1157" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/pie-charts/" class=""><span class="item_outer"><span class="item_text">Pie Charts</span></span></a></li>
-								</ul>
-							</li>
-							<li id="nav-menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Interactive</span></span></a>
-								<ul>
-									<li id="nav-menu-item-1222" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/image-gallery/" class=""><span class="item_outer"><span class="item_text">Image Gallery</span></span></a></li>
-									<li id="nav-menu-item-1184" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span></span></a></li>
-									<li id="nav-menu-item-1180" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/team/" class=""><span class="item_outer"><span class="item_text">Team</span></span></a></li>
-									<li id="nav-menu-item-1299" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/banner/" class=""><span class="item_outer"><span class="item_text">Banner</span></span></a></li>
-									<li id="nav-menu-item-1300" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/shop-list/" class=""><span class="item_outer"><span class="item_text">Shop List</span></span></a></li>
-									<li id="nav-menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/portfolio-list/" class=""><span class="item_outer"><span class="item_text">Portfolio List</span></span></a></li>
-								</ul>
-							</li>
-							<li id="nav-menu-item-147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Typography</span></span></a>
-								<ul>
-									<li id="nav-menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/headings/" class=""><span class="item_outer"><span class="item_text">Headings</span></span></a></li>
-									<li id="nav-menu-item-974" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/columns/" class=""><span class="item_outer"><span class="item_text">Columns</span></span></a></li>
-									<li id="nav-menu-item-994" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/section-title/" class=""><span class="item_outer"><span class="item_text">Section Title</span></span></a></li>
-									<li id="nav-menu-item-1082" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/blockquote/" class=""><span class="item_outer"><span class="item_text">Blockquote</span></span></a></li>
-									<li id="nav-menu-item-1099" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/dropcaps/" class=""><span class="item_outer"><span class="item_text">Dropcaps</span></span></a></li>
-									<li id="nav-menu-item-2067" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/highlights/" class=""><span class="item_outer"><span class="item_text">Highlights</span></span></a></li>
-									<li id="nav-menu-item-1102" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/separators/" class=""><span class="item_outer"><span class="item_text">Separators</span></span></a></li>
-									<li id="nav-menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/custom-font/" class=""><span class="item_outer"><span class="item_text">Custom Font</span></span></a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</li>
-			<li id="nav-menu-item-937" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Language</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-				<div class="second">
-					<div class="inner">
-						<ul>
-							<li id="nav-menu-item-938" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="#"  onclick="switchLangView('en')" class=""><span class="item_outer"><span class="item_text">English</span></span></a></li>
-							<li id="nav-menu-item-997" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="#"  onclick="switchLangView('hindi')" class=""><span class="item_outer"><span class="item_text" >Hindi</span></span></a></li>
-							<li id="nav-menu-item-2095" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="#"  onclick="switchLangView('tel')" class=""><span class="item_outer"><span class="item_text">Telugu</span></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</li>
-		</ul>
-	</nav>
-<a class="mkdf-search-opener mkdf-icon-has-hover mkdf-search-opener-icon-pack" href="javascript:void(0)">
-<span class="mkdf-search-opener-wrapper">
-<span aria-hidden="true" class="mkdf-icon-font-elegant icon_search "></span> </span>
-</a>
-<!--div class="mkdf-shopping-cart-holder mkdf-cart-info-is-disabled">
-<div class="mkdf-shopping-cart-inner">
-<a itemprop="url" class="mkdf-header-cart" href="cart/">
-<span class="mkdf-cart-icon-number-holder">
-<span class="mkdf-cart-icon"><i class="mkdf-icon-dripicons dripicon dripicons-shopping-bag "></i></span>
-<span class="mkdf-cart-number">0</span>
-</span>
-<span class="mkdf-cart-icon-text">CART</span>
-<span class="mkdf-cart-info">
-<span class="mkdf-cart-info-total">(<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>0</span>)</span>
-</span>
-</a>
-<div class="mkdf-shopping-cart-dropdown">
-<ul>
-<li class="mkdf-empty-cart">No products in the cart.</li>
-</ul>
-</div>
-</div>
-</div-->
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="mkdf-sticky-header">
-<div class="mkdf-sticky-holder mkdf-menu-right">
-<div class="mkdf-grid">
-<div class="mkdf-vertical-align-containers">
-<div class="mkdf-position-left"><div class="mkdf-position-left-inner">
-<div class="mkdf-logo-wrapper">
-<a itemprop="url" href="" style="height: 25px;">
-<img itemprop="image" class="mkdf-normal-logo" src="wp-content/uploads/2018/05/h2-logo-1.png" width="424" height="50" alt="logo" />
-<img itemprop="image" class="mkdf-dark-logo" src="wp-content/themes/fiorello/assets/img/logo.png" alt="dark logo" /> <img itemprop="image" class="mkdf-light-logo" src="wp-content/themes/fiorello/assets/img/logo_white.png" alt="light logo" /> </a>
-</div>
-</div>
-</div>
-<div class="mkdf-position-right"><div class="mkdf-position-right-inner">
-<nav class="mkdf-main-menu mkdf-drop-down mkdf-sticky-nav">
-<ul id="menu-main-menu-1" class="clearfix"><li id="sticky-nav-menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub narrow"><a href="#" class=" current "><span class="item_outer"><span class="item_text">Home</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-189 current_page_item "><a href="" class=""><span class="item_outer"><span class="item_text">Main Home</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="grid-home" class=""><span class="item_outer"><span class="item_text">Grid Home</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="flower-shop/" class=""><span class="item_outer"><span class="item_text">Flower Shop</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1662" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="animated-slider/" class=""><span class="item_outer"><span class="item_text">Animated Slider</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-703" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="metro-showcase/" class=""><span class="item_outer"><span class="item_text">Metro Showcase</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-855" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="carousel-showcase/" class=""><span class="item_outer"><span class="item_text">Carousel Showcase</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2886" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="landing/" class=""><span class="item_outer"><span class="item_text">Landing</span><span class="plus"></span></span></a></li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="about-us/" class=""><span class="item_outer"><span class="item_text">About Us</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="faq-page/" class=""><span class="item_outer"><span class="item_text">FAQ Page</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-702" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="contact-us/" class=""><span class="item_outer"><span class="item_text">Contact Us</span><span class="plus"></span></span></a></li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide mkdf-wide-menu-in-grid"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Product Types</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/orange-amaryllis/" class=""><span class="item_outer"><span class="item_text">Standard Product</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Kobbari-Bondam/" class=""><span class="item_outer"><span class="item_text">Grouped Product</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/pink-flower-tree/" class=""><span class="item_outer"><span class="item_text">Variable Product</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/colorful-tulips/" class=""><span class="item_outer"><span class="item_text">Virtual Product</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Pelli-Butta/" class=""><span class="item_outer"><span class="item_text">External Product</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/summer-savory/" class=""><span class="item_outer"><span class="item_text">Downloadable Product</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Addu-Thera/" class=""><span class="item_outer"><span class="item_text">On Sale Product</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-559" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/Venis/" class=""><span class="item_outer"><span class="item_text">Out of Stock Product</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-557" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="product/schefflera/" class=""><span class="item_outer"><span class="item_text">New Product</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Pages</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="my-account/" class=""><span class="item_outer"><span class="item_text">My Account</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="cart/" class=""><span class="item_outer"><span class="item_text">Cart</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="checkout/" class=""><span class="item_outer"><span class="item_text">Checkout</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2088" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="my-account/orders/" class=""><span class="item_outer"><span class="item_text">Orders</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2087" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="my-account/downloads/" class=""><span class="item_outer"><span class="item_text">Downloads</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Types</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2581" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/without-sidebar/" class=""><span class="item_outer"><span class="item_text">Without Sidebar</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1862" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="with-category-filter/" class=""><span class="item_outer"><span class="item_text">With Category Filter</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2579" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="with-ordering-filter/" class=""><span class="item_outer"><span class="item_text">With Ordering Filter</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="shop-carousel/" class=""><span class="item_outer"><span class="item_text">Shop Carousel</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2578" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-categories/" class=""><span class="item_outer"><span class="item_text">Product Categories</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1864" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="product-category/various/" class=""><span class="item_outer"><span class="item_text">Single Category</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Shop Layouts</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-1813" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/two-columns-grid/" class=""><span class="item_outer"><span class="item_text">Two Columns Grid</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="three-columns-grid/" class=""><span class="item_outer"><span class="item_text">Three Columns Grid</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/four-columns-grid/" class=""><span class="item_outer"><span class="item_text">Four Columns Grid</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1812" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">Four Columns Wide</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">Five Columns Wide</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="product-list/six-columns-wide/" class=""><span class="item_outer"><span class="item_text">Six Columns Wide</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-937" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-938" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-standard/" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-997" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2095" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-masonry/" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Layouts</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-1038" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/two-columns/" class=""><span class="item_outer"><span class="item_text">Two Columns</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/three-columns/" class=""><span class="item_outer"><span class="item_text">Three Columns</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1036" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/four-columns/" class=""><span class="item_outer"><span class="item_text">Four Columns</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1035" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">Four Columns Wide</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1034" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="portfolio-gallery/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">Five Columns Wide</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-940" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Single</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-990" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/flower-power/" class=""><span class="item_outer"><span class="item_text">Small Images</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-989" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/floristry-shops/" class=""><span class="item_outer"><span class="item_text">Small Slider</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-988" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/english-garden/" class=""><span class="item_outer"><span class="item_text">Big Images</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-987" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/dutch-style/" class=""><span class="item_outer"><span class="item_text">Big Slider</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-986" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="portfolio-item/ikebana/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-567" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-863" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="blog-masonry/" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a></li>
- <li id="sticky-nav-menu-item-629" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="blog-standard-right-sidebar/" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-568" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Post Types</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="creating-messages-of-magnificence/" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1691" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="beautiful/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-625" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="we-dont-just-create-bouquets-we-create-emotions/" class=""><span class="item_outer"><span class="item_text">Link</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-624" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="your-first-choice/" class=""><span class="item_outer"><span class="item_text">Quote</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="the-sound-of-flowers/" class=""><span class="item_outer"><span class="item_text">Audio</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="making-bouquets/" class=""><span class="item_outer"><span class="item_text">Video</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-</ul></div></div>
-</li>
-<li id="sticky-nav-menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="elements/" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Elements</span><span class="plus"></span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-<li id="sticky-nav-menu-item-144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Classic</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/accordions/" class=""><span class="item_outer"><span class="item_text">Accordions</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1294" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/tabs/" class=""><span class="item_outer"><span class="item_text">Tabs</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1293" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/buttons/" class=""><span class="item_outer"><span class="item_text">Buttons</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1297" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/video-button/" class=""><span class="item_outer"><span class="item_text">Video Button</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1273" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/contact-form/" class=""><span class="item_outer"><span class="item_text">Contact Form</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Infographic</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-1177" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/blog-list/" class=""><span class="item_outer"><span class="item_text">Blog List</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1133" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/counters/" class=""><span class="item_outer"><span class="item_text">Counters</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/countdown/" class=""><span class="item_outer"><span class="item_text">Countdown</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1298" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/google-maps/" class=""><span class="item_outer"><span class="item_text">Google Maps</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1120" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/progress-bar/" class=""><span class="item_outer"><span class="item_text">Progress Bar</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1157" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/pie-charts/" class=""><span class="item_outer"><span class="item_text">Pie Charts</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Interactive</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-1222" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/image-gallery/" class=""><span class="item_outer"><span class="item_text">Image Gallery</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1184" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1180" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/team/" class=""><span class="item_outer"><span class="item_text">Team</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1299" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/banner/" class=""><span class="item_outer"><span class="item_text">Banner</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1300" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/shop-list/" class=""><span class="item_outer"><span class="item_text">Shop List</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/portfolio-list/" class=""><span class="item_outer"><span class="item_text">Portfolio List</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-<li id="sticky-nav-menu-item-147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Typography</span><span class="plus"></span></span></a>
-<ul>
-<li id="sticky-nav-menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/headings/" class=""><span class="item_outer"><span class="item_text">Headings</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-974" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/columns/" class=""><span class="item_outer"><span class="item_text">Columns</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-994" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/section-title/" class=""><span class="item_outer"><span class="item_text">Section Title</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1082" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/blockquote/" class=""><span class="item_outer"><span class="item_text">Blockquote</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1099" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/dropcaps/" class=""><span class="item_outer"><span class="item_text">Dropcaps</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-2067" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/highlights/" class=""><span class="item_outer"><span class="item_text">Highlights</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1102" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/separators/" class=""><span class="item_outer"><span class="item_text">Separators</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="elements/custom-font/" class=""><span class="item_outer"><span class="item_text">Custom Font</span><span class="plus"></span></span></a></li>
-</ul>
-</li>
-</ul></div></div>
-</li>
-</ul></nav>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="mkdf-slide-from-header-bottom-holder">
-<form action="" method="get">
-<div class="mkdf-form-holder">
-<input type="text" placeholder="Search" name="s" class="mkdf-search-field" autocomplete="off" />
-<button type="submit" class="mkdf-search-submit mkdf-search-submit-icon-pack">
-<span aria-hidden="true" class="mkdf-icon-font-elegant icon_search "></span> </button>
-</div>
-</form>
-</div></header>
+				</form>
+			</div>
+		</header>
 <header class="mkdf-mobile-header">
 <div class="mkdf-mobile-header-inner">
 <div class="mkdf-mobile-header-holder">
