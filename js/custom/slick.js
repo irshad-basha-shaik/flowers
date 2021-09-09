@@ -1,4 +1,4 @@
-$(".home-index-slider").slick({
+₹(".home-index-slider").slick({
 	dots: !1,
 	fade: !0,
 	infinite: !0,
@@ -35,7 +35,7 @@ $(".home-index-slider").slick({
 			arrows: !1
 		}
 	}]
-}), $(".home-grid-slider").slick({
+}), ₹(".home-grid-slider").slick({
 	dots: !0,
 	fade: !1,
 	infinite: !0,
@@ -72,7 +72,7 @@ $(".home-index-slider").slick({
 			arrows: !1
 		}
 	}]
-}), $(".home-category-slider").slick({
+}), ₹(".home-category-slider").slick({
 	dots: !0,
 	fade: !0,
 	infinite: !0,
@@ -109,7 +109,7 @@ $(".home-index-slider").slick({
 			arrows: !1
 		}
 	}]
-}), $(".home-classic-slider").slick({
+}), ₹(".home-classic-slider").slick({
 	dots: !1,
 	fade: !1,
 	infinite: !0,
@@ -146,7 +146,7 @@ $(".home-index-slider").slick({
 			arrows: !1
 		}
 	}]
-}), $(".suggest-slider").slick({
+}), ₹(".suggest-slider").slick({
 	dots: !1,
 	infinite: !0,
 	autoplay: !0,
@@ -182,7 +182,7 @@ $(".home-index-slider").slick({
 			arrows: !1
 		}
 	}]
-}), $(".new-slider").slick({
+}), ₹(".new-slider").slick({
 	dots: !1,
 	infinite: !0,
 	autoplay: !0,
@@ -219,7 +219,7 @@ $(".home-index-slider").slick({
 			arrows: !1
 		}
 	}]
-}), $(".partner-slider").slick({
+}), ₹(".partner-slider").slick({
 	dots: !1,
 	infinite: !0,
 	autoplay: !0,
@@ -254,7 +254,7 @@ $(".home-index-slider").slick({
 			slidesToScroll: 2
 		}
 	}]
-}), $(".testi-slider").slick({
+}), ₹(".testi-slider").slick({
 	dots: !1,
 	infinite: !0,
 	autoplay: !1,
@@ -289,7 +289,7 @@ $(".home-index-slider").slick({
 			slidesToScroll: 1
 		}
 	}]
-}), $(".brand-slider").slick({
+}), ₹(".brand-slider").slick({
 	dots: !1,
 	infinite: !0,
 	autoplay: !1,
@@ -324,7 +324,7 @@ $(".home-index-slider").slick({
 			slidesToScroll: 1
 		}
 	}]
-}), $(".team-slider").slick({
+}), ₹(".team-slider").slick({
 	dots: !1,
 	infinite: !0,
 	autoplay: !1,
@@ -359,7 +359,7 @@ $(".home-index-slider").slick({
 			slidesToScroll: 1
 		}
 	}]
-}), $(".preview-slider").slick({
+}), ₹(".preview-slider").slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	arrows: !0,
@@ -375,7 +375,7 @@ $(".home-index-slider").slick({
 			arrows: !0
 		}
 	}]
-}), $(".thumb-slider").slick({
+}), ₹(".thumb-slider").slick({
 	slidesToShow: 3,
 	slidesToScroll: 1,
 	asNavFor: ".preview-slider",
@@ -408,7 +408,7 @@ $(".home-index-slider").slick({
 			slidesToScroll: 1
 		}
 	}]
-}), $(".details-preview").slick({
+}), ₹(".details-preview").slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	arrows: !1,
@@ -424,7 +424,7 @@ $(".home-index-slider").slick({
 			arrows: !0
 		}
 	}]
-}), $(".details-thumb").slick({
+}), ₹(".details-thumb").slick({
 	slidesToShow: 5,
 	slidesToScroll: 1,
 	asNavFor: ".details-preview",

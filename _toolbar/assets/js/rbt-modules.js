@@ -1,21 +1,21 @@
-(function ($) {
-	$(window).load(function () {
+(function (₹) {
+	₹(window).load(function () {
 		rbtAjax();
 	});
 
 	// ajax used to request php file
 	function rbtAjax() {
-		var rbtTheme = $('.rbt-toolbar').data("theme");
-		var rbtFeatured = $('.rbt-toolbar').data("featured");
-		var rbtButtonPosition = $('.rbt-toolbar').data("button-position");
-		var rbtButtonHorizontal = $('.rbt-toolbar').data("button-horizontal");
-		var rbtButtonAlt = $('.rbt-toolbar').data("button-alt");
+		var rbtTheme = ₹('.rbt-toolbar').data("theme");
+		var rbtFeatured = ₹('.rbt-toolbar').data("featured");
+		var rbtButtonPosition = ₹('.rbt-toolbar').data("button-position");
+		var rbtButtonHorizontal = ₹('.rbt-toolbar').data("button-horizontal");
+		var rbtButtonAlt = ₹('.rbt-toolbar').data("button-alt");
 		var rbtAso = getUrlParameter('aso');
 		var rbtAca = getUrlParameter('aca');
 		var rbtUtmCampaign = getUrlParameter('utm_campaign');
 		var rbtReferrer = document.referrer;
 
-		$.ajax({
+		₹.ajax({
 			url: 'templates/profile.php',
 			// url: 'http://masterds.localhost/wp-content/plugins/rabbit-toolbar/templates/profile.php', /* LOCAL */
 			type: "GET",
@@ -31,7 +31,7 @@
 				referrer: rbtReferrer,
 			},
 			success: function (data) {
-				$('.rbt-toolbar').html(data);
+				₹('.rbt-toolbar').html(data);
 				rbtLazyLoad();
 				rbtListToggle();
 				rbtSmoothScrollCompatibility();
@@ -54,13 +54,13 @@
 	function rbtLazyLoad() {
 
 			var imagePlaceholder = new Image();
-			$(imagePlaceholder).on('load', function () {
+			₹(imagePlaceholder).on('load', function () {
 				var load = function() {
-					$('.rbt-list .rbt-lazy-load img:not(.rbt-lazy-loading)').each(function (i, object) {
-						object = $(object);
+					₹('.rbt-list .rbt-lazy-load img:not(.rbt-lazy-loading)').each(function (i, object) {
+						object = ₹(object);
 						var rect = object[0].getBoundingClientRect(),
-							vh = ($(window).height() || document.documentElement.clientHeight),
-							vw = ($(window).width() || document.documentElement.clientWidth),
+							vh = (₹(window).height() || document.documentElement.clientHeight),
+							vw = (₹(window).width() || document.documentElement.clientWidth),
 							oh = object.outerHeight(),
 							ow = object.outerWidth();
 
@@ -77,9 +77,9 @@
 
 							var imageObj = new Image();
 
-							$(imageObj).on('load', function () {
-								var $this = $(this);
-								object.attr('src', $this.attr('src'));
+							₹(imageObj).on('load', function () {
+								var ₹this = ₹(this);
+								object.attr('src', ₹this.attr('src'));
 								object
 									.removeAttr('data-image')
 									.removeData('image')
@@ -90,11 +90,11 @@
 					});
 				}
 
-				$('.rbt-theme-dropdown .rbt-btn').on('click', function () {
+				₹('.rbt-theme-dropdown .rbt-btn').on('click', function () {
 					setTimeout(function(){load();},500); //0.5s is animation time of toolbar showing
 				});
 
-				$(".rbt-list").scroll(function() {
+				₹(".rbt-list").scroll(function() {
 					load();
 				});
 
@@ -103,21 +103,21 @@
 
 	// open/close logic
 	function rbtListToggle() {
-		var opener = $('.rbt-theme-dropdown .rbt-btn'),
-			list = $('.rbt-sidearea'),
-			splitScreenPresent = typeof $.fn.multiscroll !== 'undefined' && typeof $.fn.multiscroll.setMouseWheelScrolling !== 'undefined';
-			fullPagePresent = typeof $.fn.fullpage !== 'undefined' && typeof $.fn.fullpage.setMouseWheelScrolling !== 'undefined';
+		var opener = ₹('.rbt-theme-dropdown .rbt-btn'),
+			list = ₹('.rbt-sidearea'),
+			splitScreenPresent = typeof ₹.fn.multiscroll !== 'undefined' && typeof ₹.fn.multiscroll.setMouseWheelScrolling !== 'undefined';
+			fullPagePresent = typeof ₹.fn.fullpage !== 'undefined' && typeof ₹.fn.fullpage.setMouseWheelScrolling !== 'undefined';
 
 		var toggleList = function () {
 			opener.on('click', function () {
 				if (list.hasClass('rbt-active')) {
 					list.removeClass('rbt-active');
-					splitScreenPresent && $.fn.multiscroll.setMouseWheelScrolling(true);
-					fullPagePresent && $.fn.fullpage.setMouseWheelScrolling(true);
+					splitScreenPresent && ₹.fn.multiscroll.setMouseWheelScrolling(true);
+					fullPagePresent && ₹.fn.fullpage.setMouseWheelScrolling(true);
 				} else {
 					list.addClass('rbt-active');
-					splitScreenPresent && $.fn.multiscroll.setMouseWheelScrolling(false);
-					fullPagePresent && $.fn.fullpage.setMouseWheelScrolling(false);
+					splitScreenPresent && ₹.fn.multiscroll.setMouseWheelScrolling(false);
+					fullPagePresent && ₹.fn.fullpage.setMouseWheelScrolling(false);
 				}
 
 				if (list.hasClass('rbt-scrolled')) {
@@ -126,14 +126,14 @@
 			});
 		};
 
-		var currentScroll = $(window).scrollTop();
-		$(window).scroll(function () {
-			var newScroll = $(window).scrollTop();
+		var currentScroll = ₹(window).scrollTop();
+		₹(window).scroll(function () {
+			var newScroll = ₹(window).scrollTop();
 			if (Math.abs(newScroll - currentScroll) > 1000) {
 				if (list.hasClass('rbt-active')) {
 					list.removeClass('rbt-active');
-					splitScreenPresent && $.fn.multiscroll.setMouseWheelScrolling(true);
-					fullPagePresent && $.fn.fullpage.setMouseWheelScrolling(true);
+					splitScreenPresent && ₹.fn.multiscroll.setMouseWheelScrolling(true);
+					fullPagePresent && ₹.fn.fullpage.setMouseWheelScrolling(true);
 				}
 
 				if (!list.hasClass('rbt-scrolled')) {
@@ -143,13 +143,13 @@
 		});
 
 		var clickAwayClose = function () {
-			$(document).on('click', function (e) {
+			₹(document).on('click', function (e) {
 				if (!list.is(e.target) &&
 					list.has(e.target).length === 0 &&
 					list.hasClass('rbt-active')) {
 					list.removeClass('rbt-active');
-					splitScreenPresent && $.fn.multiscroll.setMouseWheelScrolling(true);
-					fullPagePresent && $.fn.fullpage.setMouseWheelScrolling(true);
+					splitScreenPresent && ₹.fn.multiscroll.setMouseWheelScrolling(true);
+					fullPagePresent && ₹.fn.fullpage.setMouseWheelScrolling(true);
 				}
 			});
 		};
@@ -163,11 +163,11 @@
 
 	// smooth-scroll compatibility
 	function rbtSmoothScrollCompatibility() {
-		var smoothScrollEnabled = $('body[class*="smooth-scroll"]').length || $('body[class*="smooth_scroll"]').length;
+		var smoothScrollEnabled = ₹('body[class*="smooth-scroll"]').length || ₹('body[class*="smooth_scroll"]').length;
 
-		if (smoothScrollEnabled && !$('html').hasClass('touch')) {
-			var opener = $('.rbt-theme-dropdown .rbt-btn'),
-				list = $('.rbt-sidearea');
+		if (smoothScrollEnabled && !₹('html').hasClass('touch')) {
+			var opener = ₹('.rbt-theme-dropdown .rbt-btn'),
+				list = ₹('.rbt-sidearea');
 
 			var disableScroll = function () {
 				window.removeEventListener('mousewheel', smoothScrollListener, {passive: false});
@@ -199,7 +199,7 @@
 
 	// initial load class
 	function showList() {
-		var list = $('.rbt-sidearea');
+		var list = ₹('.rbt-sidearea');
 
 		list.length && list.addClass('rbt-loaded');
 	}

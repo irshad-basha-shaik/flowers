@@ -61,7 +61,7 @@
 										</div>
 										<span class="rbt-theme-name">Valeska</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/askka-candle-shop/?utm_campaign=mikado&utm_source=toolbar"
@@ -72,7 +72,7 @@
 										</div>
 										<span class="rbt-theme-name">Askka</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/giada-jewelry-and-watch-store/?utm_campaign=mikado&utm_source=toolbar"
@@ -83,7 +83,7 @@
 										</div>
 										<span class="rbt-theme-name">Giada</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/tobel-modern-furniture-store/?utm_campaign=mikado&utm_source=toolbar"
@@ -94,7 +94,7 @@
 										</div>
 										<span class="rbt-theme-name">Töbel</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$75</span>
+										<span class="rbt-theme-price">₹75</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/hugge-elementor-woocommerce-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -105,7 +105,7 @@
 										</div>
 										<span class="rbt-theme-name">Hugge</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/pome-food-store-wordpress-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -116,7 +116,7 @@
 										</div>
 										<span class="rbt-theme-name">Pome</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/parris-beauty-and-makeup-shop/?utm_campaign=mikado&utm_source=toolbar"
@@ -127,7 +127,7 @@
 										</div>
 										<span class="rbt-theme-name">Parris</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$75</span>
+										<span class="rbt-theme-price">₹75</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/pharmacare-pharmacy-and-medical-store/?utm_campaign=mikado&utm_source=toolbar"
@@ -138,7 +138,7 @@
 										</div>
 										<span class="rbt-theme-name">PharmaCare</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/haaken-fashion-store-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -149,7 +149,7 @@
 										</div>
 										<span class="rbt-theme-name">Haaken</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$75</span>
+										<span class="rbt-theme-price">₹75</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/umea-furniture-store/?utm_campaign=mikado&utm_source=toolbar"
@@ -160,7 +160,7 @@
 										</div>
 										<span class="rbt-theme-name">Umeå</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/daphne-lingerie-shop-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -171,7 +171,7 @@
 										</div>
 										<span class="rbt-theme-name">Daphne</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/passim-beauty-and-cosmetics-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -182,7 +182,7 @@
 										</div>
 										<span class="rbt-theme-name">Passim</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/trousseau-bridal-shop-wordpress-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -193,7 +193,7 @@
 										</div>
 										<span class="rbt-theme-name">Trousseau</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/sante-organic-shop-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -204,7 +204,7 @@
 										</div>
 										<span class="rbt-theme-name">Santé</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 																<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/lucent-lighting-shop-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -215,7 +215,7 @@
 										</div>
 										<span class="rbt-theme-name">Lucent</span>
 										<span class="rbt-theme-tag">woocommerce</span>
-										<span class="rbt-theme-price">$69</span>
+										<span class="rbt-theme-price">₹69</span>
 									</div>
 								</a>
 								
@@ -228,7 +228,7 @@
 									</div>
 									<span class="rbt-theme-name">Fönster</span>
 									<span class="rbt-theme-tag">portfolio</span>
-									<span class="rbt-theme-price">$69</span>
+									<span class="rbt-theme-price">₹69</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/thalassa-seafood-restaurant-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -239,7 +239,7 @@
 									</div>
 									<span class="rbt-theme-name">Thalassa</span>
 									<span class="rbt-theme-tag">food & restaurants</span>
-									<span class="rbt-theme-price">$69</span>
+									<span class="rbt-theme-price">₹69</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/leonie-nail-and-beauty-salon/?utm_campaign=mikado&utm_source=toolbar"
@@ -250,7 +250,7 @@
 									</div>
 									<span class="rbt-theme-name">Léonie</span>
 									<span class="rbt-theme-tag">lifestyle</span>
-									<span class="rbt-theme-price">$69</span>
+									<span class="rbt-theme-price">₹69</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/drew-restaurant-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -261,7 +261,7 @@
 									</div>
 									<span class="rbt-theme-name">Drew</span>
 									<span class="rbt-theme-tag">food & restaurants</span>
-									<span class="rbt-theme-price">$69</span>
+									<span class="rbt-theme-price">₹69</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/fokkner-real-estate-and-property-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -272,7 +272,7 @@
 									</div>
 									<span class="rbt-theme-name">Fokkner</span>
 									<span class="rbt-theme-tag">real estate</span>
-									<span class="rbt-theme-price">$75</span>
+									<span class="rbt-theme-price">₹75</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/valiance-business-consulting/?utm_campaign=mikado&utm_source=toolbar"
@@ -283,7 +283,7 @@
 									</div>
 									<span class="rbt-theme-name">Valiance</span>
 									<span class="rbt-theme-tag">business</span>
-									<span class="rbt-theme-price">$75</span>
+									<span class="rbt-theme-price">₹75</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/zoya-lifestyle-blog/?utm_campaign=mikado&utm_source=toolbar"
@@ -294,7 +294,7 @@
 									</div>
 									<span class="rbt-theme-name">Zoya</span>
 									<span class="rbt-theme-tag">blog & magazine</span>
-									<span class="rbt-theme-price">$69</span>
+									<span class="rbt-theme-price">₹69</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/myvoyage-travel-blog-wordpress-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -305,7 +305,7 @@
 									</div>
 									<span class="rbt-theme-name">MyVoyage</span>
 									<span class="rbt-theme-tag">blog & magazine</span>
-									<span class="rbt-theme-price">$75</span>
+									<span class="rbt-theme-price">₹75</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/fairwaygreen-golf-club/?utm_campaign=mikado&utm_source=toolbar"
@@ -316,7 +316,7 @@
 									</div>
 									<span class="rbt-theme-name">FairwayGreen</span>
 									<span class="rbt-theme-tag">sport & fitness</span>
-									<span class="rbt-theme-price">$69</span>
+									<span class="rbt-theme-price">₹69</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/oraiste-creative-portfolio-wordpress-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -327,7 +327,7 @@
 									</div>
 									<span class="rbt-theme-name">Oráiste</span>
 									<span class="rbt-theme-tag">portfolio</span>
-									<span class="rbt-theme-price">$75</span>
+									<span class="rbt-theme-price">₹75</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/henrik-creative-magazine-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -338,7 +338,7 @@
 									</div>
 									<span class="rbt-theme-name">Henrik</span>
 									<span class="rbt-theme-tag">blog & magazine</span>
-									<span class="rbt-theme-price">$75</span>
+									<span class="rbt-theme-price">₹75</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/vokial-creative-agency-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -349,7 +349,7 @@
 									</div>
 									<span class="rbt-theme-name">Vokial</span>
 									<span class="rbt-theme-tag">portfolio</span>
-									<span class="rbt-theme-price">$69</span>
+									<span class="rbt-theme-price">₹69</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/swiss-delight-chocolate-cake-shop-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -360,7 +360,7 @@
 									</div>
 									<span class="rbt-theme-name">Swiss Delight</span>
 									<span class="rbt-theme-tag">food & restaurants</span>
-									<span class="rbt-theme-price">$69</span>
+									<span class="rbt-theme-price">₹69</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/healthfirst-nutrition-and-recipes-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -371,7 +371,7 @@
 									</div>
 									<span class="rbt-theme-name">HealthFirst</span>
 									<span class="rbt-theme-tag">medical</span>
-									<span class="rbt-theme-price">$69</span>
+									<span class="rbt-theme-price">₹69</span>
 								</div>
 							</a>
 														<a target="_blank" href="https://qodeinteractive.com/wordpress-theme/emeline-creative-agency-elementor-theme/?utm_campaign=mikado&utm_source=toolbar"
@@ -382,7 +382,7 @@
 									</div>
 									<span class="rbt-theme-name">Emeline</span>
 									<span class="rbt-theme-tag">creative business</span>
-									<span class="rbt-theme-price">$75</span>
+									<span class="rbt-theme-price">₹75</span>
 								</div>
 							</a>
 							

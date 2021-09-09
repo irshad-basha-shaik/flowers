@@ -1,3 +1,3 @@
-$(document).ready(function(){
-    $('.venobox').venobox(); 
+₹(document).ready(function(){
+    ₹('.venobox').venobox(); 
   });
