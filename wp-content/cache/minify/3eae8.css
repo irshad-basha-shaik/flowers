@@ -1804,7 +1804,7 @@ CSS changes can be made in files in the /css/ folder. This is a placeholder file
 
 /* line 222, basic/_styles.scss */
 .icon-basic-magnifier-minus:before {
-  content: "₹";
+  content: "$";
 }
 
 /* line 225, basic/_styles.scss */
@@ -2507,7 +2507,7 @@ CSS changes can be made in files in the /css/ folder. This is a placeholder file
 
 /* line 224, basic-elaboration/_styles.scss */
 .icon-basic-elaboration-document-search:before {
-  content: "₹";
+  content: "$";
 }
 
 /* line 227, basic-elaboration/_styles.scss */
@@ -3261,7 +3261,7 @@ CSS changes can be made in files in the /css/ folder. This is a placeholder file
 
 /* line 224, ecommerce/_styles.scss */
 .icon-ecommerce-receipt-pesos:before {
-  content: "₹";
+  content: "$";
 }
 
 /* line 227, ecommerce/_styles.scss */
@@ -3894,7 +3894,7 @@ CSS changes can be made in files in the /css/ folder. This is a placeholder file
 
 /* line 223, software/_styles.scss */
 .icon-software-paragraph-space-after:before {
-  content: "₹";
+  content: "$";
 }
 
 /* line 226, software/_styles.scss */
@@ -5065,7 +5065,7 @@ CSS changes can be made in files in the /css/ folder. This is a placeholder file
 }
 /*
  Use the following CSS code if you want to have a class per icon.
- Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
+ Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower: 
 */
 .icon-user,
 .icon-people,
